@@ -1,0 +1,106 @@
+.header{
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.left-section{
+    align-items: center;
+    display: flex;
+}
+
+.menu-icon{
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo-icon{
+    height: 30px;
+}
+
+.middle-section{
+    flex: 1;
+    margin-left: 85px;
+    margin-right: 40px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.searchBar{
+    height: 36px;
+    font-size: 18px;
+    flex: 1;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.searchBar::placeholder{
+    font-family: Roboto;
+    font-size: 19px;
+    padding-left: 10px;
+    color: lightgrey;
+}
+
+.keyboard-but{
+    width: 60px;
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+
+
+.keyboard-img{
+    width: 40px;
+    height: 30px;
+}
+
+.micro-but{
+    width: 50px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+}
+
+.micro-img{
+    width: 30px;
+    height: 30px;
+}
+
+.right-section{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.camera-img{
+    width: 30px;
+}
+
+.points-img{
+  
+    width: 30px;
+    background-color: white;
+}
+
+.bell-img{
+    width: 30px;
+}
+
+.man-img{
+    height: 35px;
+    border-radius: 50%;
+}

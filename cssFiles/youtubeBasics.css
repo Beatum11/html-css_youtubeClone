@@ -1,0 +1,32 @@
+.searchDiv{
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+.video-info{
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+.channel-picture{
+    margin-top: 0px;
+    margin-right: 0;
+    vertical-align: top;
+}
+
+.img-prof{
+    border-radius: 50px;
+}
+
+.pic-row{
+    margin-bottom: 15px;
+}
+
+.body{
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+
+
